@@ -23,6 +23,5 @@ int main(){
 		cout << arr2[i] << ' ';
 	}
 	cout << endl;
-	system("pause");
 	return 0;
 }

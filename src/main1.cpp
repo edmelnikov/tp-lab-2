@@ -15,6 +15,5 @@ int main() {
 		cout << arr2[i] << ' ';
 	}
 	cout << endl;
-	system("Pause");
 	return 0;
 }
