@@ -4,11 +4,11 @@
 
 template <typename T>
 bool compare(T first, T second){
-	return first <= second;
+	return first < second;
 }
 template<>
 bool compare<char*>(char* first, char* second){
-	return strlen(first) <= strlen(second);
+	return strlen(first) < strlen(second);
 }
 
 template <typename T>
